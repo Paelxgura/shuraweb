@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-<header class="header">
+  <div class="slide">
     <nav>
       <div class="logo">
         <img src="shura.png" alt="shuraa">
         <h3>Shuraa</h3>
       </div>
       <ul class="bar">
-        <li><a href=>Home</a></li>
-        <li><a href=>About</a></li>
-        <li><a href=>Link</a></li>
-        <li><a href=>Gallery</a></li>
-        <li><a href=>TekTok</a></li>
+        <li class="bar-item"><a href=>Home</a></li>
+        <li class="bar-item"><a href="#slide2">About</a></li>
+        <li class="bar-item"><a href=>Link</a></li>
+        <li class="bar-item"><a href=>Gallery</a></li>
+        <li class="bar-item"><a href=>TekTok</a></li>
         <div class="animation start-home"></div>
       </ul>
+      <div class="fa-solid fa-bars fa-2x" id="bar-icon"></div>
     </nav>
+  <div id="slide1">
     <div class="Home-text">
         <h1>Shura</h1>
         <h3>Discord Roblox <span>Comunity</span></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        <a href="https://discord.gg/ce7Bjxzv2h" class="text-btn">Join Discord</a>
+        <a href="" class="text-btn">Join Discord</a>
     </div>
-</header>  
+  </div>
+    <div class="slide2" id="slide2">
+      <h1>Nyari dm? ke @ellsama</h1>
+    </div>
+<script src="style.js"></script>
 </body>
 </html>
