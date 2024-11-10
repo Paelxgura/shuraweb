@@ -16,4 +16,4 @@ window.addEventListener('scroll', function() {
     // Change the transform property to create the parallax effect
     parallax.style.transform = 'translateY(' + (scrollPosition * 0.5) + 'px)';
     parallax2.style.transform = 'translateY(' + (scrollPosition * 0.5) + 'px)';
-});
+}); 
